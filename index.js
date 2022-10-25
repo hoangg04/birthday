@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
 	}
 	if (
 		!window.matchMedia("(orientation: landscape)").matches &&
-		window.innerWidth < 960
+		window.innerWidth < 600
 	) {
 		error();
 	} else {
@@ -51,7 +51,7 @@ window.addEventListener("load", function () {
 	window.addEventListener("resize", function () {
 		if (
 			!window.matchMedia("(orientation: landscape)").matches &&
-			window.innerWidth < 960
+			window.innerWidth < 600
 		) {
 			error();
 		} else {
