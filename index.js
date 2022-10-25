@@ -32,3 +32,14 @@ function test() {
 	});
 }
 next.addEventListener("click",test);
+
+document.addEventListener("orientationchange", function (event) {
+	switch (window.orientation) {
+		case -90:
+		case 90:
+			console.log("ngang")
+			break;
+		default:
+		/* Device is in portrait mode */
+	}
+});

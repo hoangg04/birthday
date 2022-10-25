@@ -109,6 +109,7 @@ body {
 }
 .content {
 	height: max-content;
+  width: 48%;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
@@ -319,3 +320,4 @@ body {
 .active.item .cake img{
   height: 90%;
 }
+
