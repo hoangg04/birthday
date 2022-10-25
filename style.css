@@ -320,4 +320,30 @@ body {
 .active.item .cake img{
   height: 90%;
 }
+.message{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color:var(--black);
+  font-size: 2.5rem;
+  text-align: center;
+  z-index: 100000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.error{
+  display: none;
+}
 
+@media screen and (max-width: 961px){
+  .container{
+    border-radius: 0;
+  }
+
+}
